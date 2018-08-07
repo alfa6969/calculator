@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <form name="calcform">
+        <table>
+            <tr>
+                <td>Перше значення:</td>
+                <td>
+                    <center>
+                        <input name="num_01" type="text" size="24" maxlength=16 value=" ">
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>Друге значення:</td>
+                <td>
+                    <center>
+                        <input name="num_02" type="text" size="24" maxlength=16 value=" ">
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>Результат:</td>
+                <td>
+                    <center>
+                        <input name="res" type="text" size="24" maxlength=0>
+                    </center>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <center>
+                        <input name="btnadd" type="button" value="     +     " onClick="GetResult(1)">
+                    </center>
+                </td>
+                <td>
+                    <center>
+                        <input name="btnsub" type="button" value="     -     " onClick="GetResult(2)">
+                    </center>
+                </td>
+                <td>
+                    <center>
+                        <input name="btnmul" type="button" value="     *     " onClick="GetResult(3)">
+                    </center>
+                </td>
+                <td>
+                    <center>
+                        <input name="btndiv" type="button" value="     /     " onClick="GetResult(4)">
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
